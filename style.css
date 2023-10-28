@@ -1,0 +1,114 @@
+* {
+    color: #737678;
+    line-height: 1.7;
+    font-size: 17px;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+.pricing-tables {
+    overflow: hidden;
+    padding: 30px 20px;
+}
+
+.single-pricing-box {
+    float: left;
+    width: 33.3333%;
+    box-shadow: 0 0 10px #f3f3f3;
+    position: relative;
+    z-index: 1;
+    margin-top: 0;
+}
+
+.pricing-heading {
+    background-color: #f9f9f9;
+    color: #898989;
+    font-size: 18px;
+    padding: 40px;
+}
+
+.pricing-heading h4 {
+    font-weight: 400;
+    font-size: 30px;
+    color: #888888;
+}
+
+.pricing-heading h1 {
+    font-weight: 300;
+    font-size: 50px;
+    color: #333;
+}
+
+.pricing-content {
+    padding: 60px;
+}
+
+.pricing-content ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 35px;
+}
+
+.pricing-btn {
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid;
+    color: #f91942;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.active .pricing-heading {
+    background-color: #f91942;
+    margin-top: -30px;
+}
+
+.active .pricing-heading h1 {
+    color: #fff;
+}
+
+.active .pricing-heading h4 {
+    color: #fff;
+}
+
+.active .pricing-heading p {
+    color: #FFF;
+}
+
+.active .single-pricing-box {
+    position: relative;
+    z-index: 2;
+    margin-left: -.5%;
+    margin-right: -.5%;
+    width: 34.3333%;
+    color: #fff;
+}
+
+.active .pricing-content {
+    padding: 75px 60px;
+}
+
+.active .pricing-btn {
+    background-color: #f91942;
+    color: #FFf;
+}
+
+.active.single-pricing-box::after {
+    content: "Featured";
+    position: absolute;
+    top: -8px;
+    right: -40px;
+    color: #f91942;
+    background-color: #FFf;
+    transform: rotate(45deg);
+    padding: 5px 50px;
+    font-size: 14px;
+}
+
+.active .single-pricing-box {
+    overflow: hidden;
+}
