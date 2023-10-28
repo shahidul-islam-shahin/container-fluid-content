@@ -7,6 +7,7 @@
 .section-padding {
     padding: 100px 0;
 }
+
 .pricing-tables {
     overflow: hidden;
     padding: 30px 20px;
@@ -18,7 +19,7 @@
     box-shadow: 0 0 10px #f3f3f3;
     position: relative;
     z-index: 1;
-    margin-top: 0;
+    margin-top: 30px;
 }
 
 .pricing-heading {
@@ -64,7 +65,7 @@
 
 .active .pricing-heading {
     background-color: #f91942;
-    margin-top: -30px;
+    margin-top: 0;
 }
 
 .active .pricing-heading h1 {
@@ -100,7 +101,7 @@
 .active.single-pricing-box::after {
     content: "Featured";
     position: absolute;
-    top: -8px;
+    top: 20px;
     right: -40px;
     color: #f91942;
     background-color: #FFf;
@@ -109,6 +110,7 @@
     font-size: 14px;
 }
 
-.active .single-pricing-box {
+.active.single-pricing-box {
     overflow: hidden;
+    margin-top: 0;
 }
